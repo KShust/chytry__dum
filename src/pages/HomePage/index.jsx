@@ -8,8 +8,8 @@ import '../../components/Dashboard/dashboard.css'
 export const HomePage = () => {
   return (
     <div className='container'>
-    <Header className="detail-nazev" title='Chytrý dům' />
-    <Dashboard className="detail-inner" data={smartHomeData}/>
+    <Header title='Chytrý dům' />
+    <Dashboard data={smartHomeData}/>
     </div>
   );
 };
